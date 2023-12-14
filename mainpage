@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		ul{
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		text-align:center;
+		background-color:#86c7e3;
+		}
+		
+		li{
+		display:inline;
+		color:white;
+		padding:10px;
+		text-decoration:none;
+		}
+		
+		h1{
+		text-align:center;
+		color:#86c7e3;
+		}
+		
+		img{
+		padding:30px 10px 0px 10px;
+		}
+		table {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
+	<body>
+	  <h1>Music playing devices</h1>
+	  	  
+		<ul>
+			<li><a href="">CD Player</a></li>
+			<li><a href="#recordplayer">Record Player</a></li>
+			<li><a href="#bluetoothspeaker">Bluetooth Speaker</a></li>
+		</ul>
+		<table>
+		  <tr>
+
+			<td>
+			  <img src= "https://m.media-amazon.com/images/I/71YrzhmLXhL._AC_SL1500_.jpg" alt="" width="250" height="200">
+			  <h3> CD player</h3>
+			  <h3>Price: $40.00</h3>
+			  <button onclick="document.location='default.asp'">Buy Now</button>
+			</td>
+
+			<td>
+			  <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71q-KKcG4aL._AC_SL1500_.jpg" alt="" width="250" height="200">
+			  <h3> Record player</h3>
+			  <h3>Price: $50.00</h3>
+			  <button>Buy Now</button>
+			</td>
+
+			<td>
+			  <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71EjsFSJ-lL._AC_SL1500_.jpg" alt="" width="250" height="200">
+			  <h3> Bluetooth Speaker</h3>
+			  <h3>Price:$30.00</h3>
+			  <button>Buy Now</button>
+			</td>
+		  </tr>
+		</table>
+	</body>
+</html>
